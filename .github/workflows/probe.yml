@@ -1,0 +1,9 @@
+name: probe
+on:
+  push:
+jobs:
+  hello:
+    name: hello
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hi
